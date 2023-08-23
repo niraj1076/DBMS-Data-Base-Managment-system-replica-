@@ -2,11 +2,13 @@
 - This is a project that replicate the Data Base Managment System.
 - This is project that how the query the internal query works.
 - It also show how we split the query.
+- For now this DBMS only works on the tabe named student(Rollno, name, age, marks).
 
 
 /* The query we can we use in this project
  *  Insert query
- *  insert into student value Rahul 23 67
+ *  insert into student value (Name) (Age) (Marks)
+ *  insert into student value Rahul 23 88
  * _______________________________________________________
  *  select query 
  *  select * from student
@@ -21,11 +23,12 @@
  * * select * from student where age  21
  * 
  * * select * from student where marks  66
- * ______________________________________________________ 
+ * ______________________________________________________
+ * 
  *  delete query
  *  delete from student where rno = 3
  * ____________________________________________________
- * Aggerigat query
+ * Aggerigat query(applied only from marks)
  *
  * select MAX marks from student
  *
